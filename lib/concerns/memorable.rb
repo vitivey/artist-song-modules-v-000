@@ -14,7 +14,6 @@ module Memorable
     module InstanceMethods
       def initialize
         self.class.all << self
-        binding.pry
       end
     end
 
